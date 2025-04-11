@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="mainContainer">
+    <div class="productListContainer">
+      <h1>Desserts</h1>
+      <div class="allProductList">
+        <!-- <div class="productList">
+          <div class="img">
+            <img src="assets/images/image-brownie-desktop.jpg" alt="">
+            <button class="normalButton">Add Cart <img src="assets/images/icon-add-to-cart.svg" alt=""></button>
+            <button class="hoverButton"><p class="minusBtn"><i class="fa-solid fa-minus"></i></p> <p class="count">0</p> <p class="plusBtn"><i class="fa-solid fa-plus"></i></p></button>
+          </div>
+          <div class="productDetails">
+            <p class="category">category</p>
+            <h3 class="productName">Product Name</h3>
+            <p class="productPrice">Price</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div class="cartContainer">
+      <h2 class="totalCartCount">Your Cart (<span class="cartLength">0</span>)</h2>
+      <div class="noCartImg">
+        <img src="assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p>
+      </div>
+      <div id="cart">
+        <div class="cartListss">
+          <!-- <div class="cartList">
+            <div class="cartDetails">
+              <h5>Product Name</h>
+              <div class="details">
+                <small>1x</small>
+                <p>@6.50</p>
+                <p>$6.50</p>
+              </div>
+            </div>
+            <div class="closeImg">
+              <img src="assets/images/icon-remove-item.svg" alt="icon">
+            </div>
+          </div> -->
+        </div>
+        <div class="totalPrice">
+          <p>Order Total</p>
+          <h1 class="totalOrderPrice">$67.80</h1>
+        </div>
+        <div class="carbonBox">
+          <img src="assets/images/icon-carbon-neutral.svg" alt="">
+          <p>This is a <b>Carbon-neutral</b> deleivery</p>
+        </div>
+        <button class="primary confirmOrder">Confirm Order</button>
+      </div>
+    </div>
+
+
+    <div class="orderConfirmation">
+      <img src="assets/images/icon-order-confirmed.svg" alt="icon">
+      <div class="textContent">
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food!</p>
+      </div>
+      <div class="cartListss confirmationList">
+
+      </div>
+      <div class="totalPrice confimationTotal">
+        <p>Order Total</p>
+        <h1 class="confirmtotalOrderPrice">$00.00</h1>
+      </div>
+      <button class="primary startNewOrder">Place Order</button>
+    </div>
+  </div>
+  <div class="tostMessage">
+    <h2><i class="fa-solid fa-circle-check"></i> Place Order Successfull!</h2>
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
