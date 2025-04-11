@@ -1,5 +1,5 @@
 const products = async () => {
-  await fetch("../data.json")
+  await fetch("assets/data.json")
     .then((response) => response.json())
     .then((products) => {
       renderProducts(products);
