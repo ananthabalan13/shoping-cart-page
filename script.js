@@ -13,7 +13,6 @@ products();
 const allProductListContainer = document.querySelector(".allProductList");
 
 function renderProducts(products) {
-  console.log(products);
   products.forEach((product, i) => {
     allProductListContainer.innerHTML += `
       <div class="productList" data-key=${i}>
